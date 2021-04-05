@@ -1,0 +1,69 @@
+{
+	"context-menu": {
+		"atom-text-editor": [{
+			"label": "Cscope",
+			"submenu": [
+				{
+					"label": "Query Symbol",
+					"command": "cscope-atom:symbol"
+				},
+				{
+					"label": "Query Definition",
+					"command": "cscope-atom:definition"
+				},
+				{
+					"label": "Query Callee",
+					"command": "cscope-atom:callee"
+				},
+				{
+					"label": "Query Caller",
+					"command": "cscope-atom:caller"
+				},
+				{
+					"label": "Query Text",
+					"command": "cscope-atom:text"
+				},
+				{
+					"label": "Query Egrep",
+					"command": "cscope-atom:egrep"
+				},
+				{
+					"label": "Query File",
+					"command": "cscope-atom:file"
+				},
+				{
+					"label": "Query Include",
+					"command": "cscope-atom:include"
+				},
+				{
+					"label": "Query Set",
+					"command": "cscope-atom:set"
+				},
+				{
+					"label": "Show Results",
+					"command": "cscope-atom:show-results"
+				},
+				{
+					"label": "Pop",
+					"command": "cscope-atom:pop"
+				}
+			]
+		}]
+	},
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "atom-cmd",
+					"submenu": [
+						{
+							"label": "Toggle",
+							"command": "atom-cmd:toggle"
+						}
+					]
+				}
+			]
+		}
+	]
+}

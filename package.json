@@ -1,0 +1,59 @@
+{
+	"name": "atom-cmd",
+	"main": "./lib/atom-cmd",
+	"version": "0.0.0",
+	"description": "Atom Commander",
+	"consumedServices": {
+		"status-bar": {
+			"versions": {
+				"^1.0.0": "consumeStatusBar"
+			}
+		},
+		"file-icons.element-icons": {
+			"versions": {
+				"1.0.0": "consumeElementIcons"
+			}
+		}
+	},
+	"configSchema": {
+		"widths": {
+			"type": "string",
+			"default": "0,50,100,100,100",
+			"description": "Widths for columns."
+		},
+		"logLevel": {
+			"type": "string",
+			"default": "E",
+			"enum": [
+				{
+					"value": "E",
+					"description": "Error"
+				},
+				{
+					"value": "W",
+					"description": "Warning"
+				},
+				{
+					"value": "I",
+					"description": "Information"
+				}
+			]
+		}
+	},
+	"keywords": [],
+	"activationCommands": {
+		"atom-workspace": "atom-cmd:toggle"
+	},
+	"repository": "https://github.com/SeungukShin/atom-cmd",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+		"diskusage-ng": "^1.0.1",
+		"fast-folder-size": "^1.0.3"
+	},
+	"devDependencies": {
+		"etch": "^0.14.1"
+	}
+}

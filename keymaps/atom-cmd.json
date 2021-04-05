@@ -1,0 +1,12 @@
+{
+	".atom-cmd": {
+		"tab": "atom-cmd:toggle-focus",
+		"u": "atom-cmd:update-file-list",
+		"q": "core:cancel",
+		"p": "core:move-up",
+		"n": "core:move-down",
+		"enter": "atom-cmd:open",
+		"space": "atom-cmd:toggle-mark",
+		"m": "atom-cmd:toggle-mark-next"
+	}
+}
