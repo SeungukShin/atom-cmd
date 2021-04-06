@@ -1,5 +1,5 @@
 {
-	".atom-cmd": {
+	"atom-pane.atom-cmd:focus": {
 		"tab": "atom-cmd:toggle-focus",
 		"u": "atom-cmd:update-file-list",
 		"q": "core:cancel",

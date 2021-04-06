@@ -6,3 +6,54 @@
 
 .atom-cmd {
 }
+.atom-cmd-inactive {
+	border-style: solid;
+	border-width: 1px;
+	border-color: @base-background-color;
+}
+.atom-cmd-active {
+	border-style: solid;
+	border-width: 1px;
+	border-color: @text-color;
+}
+
+// Table
+.atom-table-head {
+	background-color: @background-color-selected;
+}
+.atom-table-head-cell {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: @base-border-color;
+}
+.atom-table-body {
+	color: @text-color;
+	background-color: @base-background-color;
+}
+.atom-table-body-active {
+	color: @text-color;
+	background-color: @background-color-selected;
+}
+.atom-table-body-select {
+	color: @text-color-error;
+	background-color: @base-background-color;
+}
+.atom-table-body-active-select {
+	color: @text-color-error;
+	background-color: @background-color-selected;
+}
+.atom-table-body-cell {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: @base-border-color;
+}
