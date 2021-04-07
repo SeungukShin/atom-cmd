@@ -1,12 +1,17 @@
 {
 	"atom-pane.atom-cmd:focus": {
 		"tab": "atom-cmd:toggle-focus",
-		"u": "atom-cmd:update-file-list",
-		"q": "core:cancel",
-		"p": "core:move-up",
-		"n": "core:move-down",
+		"right": "atom-cmd:open",
 		"enter": "atom-cmd:open",
+		"left": "core:backspace",
+		"backspace": "core:backspace",
+		"ctrl-p": "core:move-up",
+		"ctrl-n": "core:move-down",
+		"alt-v": "core:page-up",
+		"ctrl-v": "core:page-down",
+		"ctrl-q": "core:cancel",
+		"ctrl-u": "atom-cmd:update",
 		"space": "atom-cmd:toggle-mark",
-		"m": "atom-cmd:toggle-mark-next"
+		"insert": "atom-cmd:toggle-mark-next"
 	}
 }
